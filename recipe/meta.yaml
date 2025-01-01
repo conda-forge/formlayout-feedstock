@@ -18,8 +18,7 @@ requirements:
   host:
     - python {{ python_min }}
     - pip
-    - pyqt
-    - zlib
+    - setuptools
   run:
     - python >={{ python_min }}
     - pyqt
